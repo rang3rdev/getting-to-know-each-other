@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    background-color: wheat;
+  }
+
+header {
+    background-color: #3b7053;
+    padding: 30px;
+    border: 20px solid #509770;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    height: 1000px;
+    background-color: wheat;
+  }
+
+  nav {
+    float: left;
+    width: 30%;
+    height: 1000px;
+    background: #3b7053;
+    padding: 50px;
+    border: 20px solid #509770;
+  }
+
+  nav ul {
+    list-style-type: square;
+    padding: 0;
+  }
+  
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+aside {
+    float: right;
+  padding: 0px;
+  width: 60%;
+  background-color: wheat;
+}
+
+.discord {
+  color: blueviolet;
+}
+
+.top {
+  color: white;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #98FB98;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(105, 151, 220);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(223, 223, 11);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.lind {
+  color: black;
+  font-size: 25px;
+}
